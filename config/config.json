@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "registration-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/registration/RegistrationWebPart.js",
+          "manifest": "./src/webparts/registration/RegistrationWebPart.manifest.json"
+        }
+      ]
+    },
+    "schedule-activity-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/scheduleActivity/ScheduleActivityWebPart.js",
+          "manifest": "./src/webparts/scheduleActivity/ScheduleActivityWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RegistrationWebPartStrings": "lib/webparts/registration/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "ScheduleActivityWebPartStrings": "lib/webparts/scheduleActivity/loc/{locale}.js"
+  }
+}

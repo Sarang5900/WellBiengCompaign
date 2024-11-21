@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "well-bieng-compaign-client-side-solution",
+    "id": "1387493a-dbaf-4071-8e13-90d2e2c7737f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "well-bieng-compaign description"
+      },
+      "longDescription": {
+        "default": "well-bieng-compaign description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "well-bieng-compaign Feature",
+        "description": "The feature that activates elements of the well-bieng-compaign solution.",
+        "id": "0ef79b1f-2379-4c8a-80ea-013ec388c60d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/well-bieng-compaign.sppkg"
+  }
+}
